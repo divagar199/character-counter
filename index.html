@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Counter Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Character Counter</h2>
+        <p class="instruction">Please type your message below. (200 characters max)</p>
+        
+        <textarea id="messageInput" maxlength="200" placeholder="Start typing here..."></textarea>
+
+        <div class="status-bar">
+            <span id="warningText" class="warning-msg">⚠ Character limit reached!</span>
+            <span id="charCounter" class="counter">0 / 200 characters</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
